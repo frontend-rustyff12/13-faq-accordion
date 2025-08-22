@@ -1,7 +1,10 @@
+import Accordian from "./Accordian";
 function App() {
   return (
-    <main className="bg-blue-500">
-      <h1>Testing</h1>
+    <main className="min-h-screen bg-[url('/background-pattern-mobile.svg')] bg-no-repeat flex justify-center items-center">
+      <div className="">
+        <Accordian />
+      </div>
     </main>
   );
 }
